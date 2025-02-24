@@ -1,0 +1,104 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2; /* Background color for all pages */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+h1 {
+    color: #990033; /* Home page header color */
+}
+
+
+#home p {
+    color: #0066cc; /* Home page paragraph color */
+}
+
+
+#about h1 {
+    color: #660066; /* About me page heading color */
+}
+
+#about p {
+    color: #339966; /* About me paragraph color */
+}
+
+#about img {
+    border: 5px solid #666;
+}
+
+
+#contact label {
+    color: #ff6600; /* Label color */
+}
+
+#contact input, #contact textarea {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#contact input[type="submit"] {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #004d99;
+}
+
+
+#resume h1 {
+    color: #b30000; /* Resume header color */
+}
+
+.resume-section h2 {
+    color: #006666; 
+}
+
+
+.page-content {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+img {
+    border-radius: 8px;
+}
+
+
+.page-content {
+    display: none;
+}
+
+
+#home {
+    display: block;
+}
